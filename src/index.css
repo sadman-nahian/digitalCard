@@ -1,0 +1,175 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+html, body {
+  margin: 0; 
+  padding: 0;     
+  height: 100%;         
+  width: 100; 
+  justify-content: center;       
+}
+
+body {
+  display: flex;       
+  justify-content: center; 
+  align-items: center;  
+  background: #23252C;
+ 
+}
+.image{
+  width: 300px;
+height: 325px;
+top: 44px;
+left: 116px;
+gap: 0px;
+border-radius: 10px 10px 0px 0px;
+opacity: 0px;
+
+}
+.card-body{
+  background: #1A1B21;
+  border-radius: 10px 10px 0px 0px;
+
+}
+.designation{
+font-family: Inter;
+font-size: 12.8px;
+font-weight: 400;
+line-height: 15.49px;
+text-align: center;
+color: #F3BF99;
+
+
+
+}
+.name{
+  font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 30.26px;
+text-align: center;
+margin-top:7px;
+
+}
+.button{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4px;
+  
+}
+.button>button{
+  width: 115px;
+height: 34px;
+
+padding: 9px 13px 9px 11px;
+
+border-radius: 6px ;
+border: 1px ;
+opacity: 0px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+button>img{
+  margin-right: 5px;
+}
+.linkedin{
+  background: #5093E2;
+}
+.mail{
+  background: #FFFFFF;
+  color:black;
+}
+.about{
+  width:275px;
+  display:flex;
+  flex-direction: column;
+  margin-top:16px
+  
+
+}
+.about>h2{
+  display: flex;
+  margin-bottom:0;
+  padding:4px;
+  margin-left:12px
+  
+
+}
+.about>p{
+  text-align: justify;
+  
+font-size: 11px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+padding-left:4px;
+margin-left:12px;
+margin-top:0;
+margin-bottom:0;
+
+ 
+}
+.interests{
+  width:275px;
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  
+  
+
+}
+.interests>h2{
+  display: flex;
+  margin-bottom:0;
+  padding:4px;
+  margin-left:12px
+  
+
+}
+.interests>p{
+  text-align: justify;
+  
+font-size: 11px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+padding-left:4px;
+margin-left:12px;
+margin-top:0;
+
+ 
+}
+.footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #161619;
+  padding:4px
+}
+.footbtn{
+  display:flex;
+  color: black;
+  margin-left:10px;
+  padding:4px;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border:none;
+
+}
